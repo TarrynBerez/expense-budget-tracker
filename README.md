@@ -104,14 +104,6 @@ CLERK_SECRET_KEY=<clerk-secret-key>
 VITE_CLERK_PUBLISHABLE_KEY=<clerk-publishable-key>
 ```
 
-ex
-```
-VITE_API_BASE_URL=http://localhost:3000
-
-CLERK_SECRET_KEY=sk_test_9Hvn4s56SWEzG7Wb48HNGf3Bfn4g6sRiHRtSFRn0dr
-VITE_CLERK_PUBLISHABLE_KEY=pk_test_YWR2YW5jZWQtd29sZi00My5jbGVyay5hY2NvdW50cy5kZXYk
-```
-
 2. Create `apps/backend/.env` and add:
 ```
 FRONTEND_URL=http://localhost:<your-localhost-port>
@@ -120,16 +112,6 @@ DATABASE_URL=<local-postgres-db-url>
 
 CLERK_PUBLISHABLE_KEY=<clerk-publishable-key>
 CLERK_SECRET_KEY=<clerk-secret-key>
-```
-
-ex
-```
-FRONTEND_URL=http://localhost:5173
-PORT=3000
-DATABASE_URL=postgresql://postgres:postgres@localhost:5433/expense_budget_tracker
-
-CLERK_PUBLISHABLE_KEY=pk_test_YWR2YW5jZWQtd29sZi00My5jbGVyay5hY2NvdW50cy5kZXYk
-CLERK_SECRET_KEY=sk_test_9Hvn4s56SWEzG7Wb48HNGf3Bfn4g6sRiHRtSFRn0dr
 ```
 
 ## Migrate and seed database
